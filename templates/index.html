@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <h1>FOOD ORDERING APP</h1>
+    <form action="/orders" method="POST">
+        <input type="text" name="name" placeholder="Your name" required>
+
+        <select name="food" required>
+            <option>Burger</option>
+            <option>Pizza</option>
+            <option>Biryani</option>
+            <option>Sandwich</option>
+            <option>Chicken</option>
+            <option>Pasta</option>
+            <option>Noodles</option>
+            <option>Pastry</option>
+            <option>Cake</option>
+        </select>
+
+        <button type="submit">Order</button>
+    </form>
+
+    <h2>Orders</h2>
+
+    {% for order in orders %}
+        <p>{{order.Name}} ordered {{order.Food}}</p> 
+    {% endfor %}
+
+</body>
+
+</html>
