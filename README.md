@@ -33,16 +33,14 @@ Food order app/
 │ └── style.css
 
 
----
+ ▶️ How to Run
 
-## ▶️ How to Run
-
-1. Install Flask:
+ 1. Install Flask
 ```bash
 pip install flask
-Run the project:
+2. Run the project
 python app.py
-Open in browser:
+3. Open in browser
 http://127.0.0.1:9000/
 
 📌 What I Learned
@@ -60,3 +58,6 @@ Improve UI design (modern frontend)
 
 👨‍💻 Author
 Riyan
+---
+
+
