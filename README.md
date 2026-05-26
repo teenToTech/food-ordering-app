@@ -44,17 +44,19 @@ Run the project:
 python app.py
 Open in browser:
 http://127.0.0.1:9000/
+
 📌 What I Learned
 Flask routing
 Handling POST requests
 HTML form handling
 Backend + frontend integration
 Basic full-stack development
+
 🎯 Future Improvements
 Add database (SQLite / MySQL)
 Add delete/edit orders feature
 Add user authentication
 Improve UI design (modern frontend)
-👨‍💻 Author
 
+👨‍💻 Author
 Riyan
